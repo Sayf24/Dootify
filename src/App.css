@@ -1,0 +1,84 @@
+
+body{
+  background-color: #47B484;
+
+}
+.App {
+  text-align: center;
+  background-color: #47B484;
+
+}
+.navBar{
+  height: 120px;
+  justify-content: center;
+  background: #1F2421;
+  overflow: hidden;
+}
+.logo{
+  height: 110px;
+  width: 120px;
+}
+.navBarButton{
+  height: 100%;
+}
+.navBarGrid{
+  padding-left: 0;
+  padding-right: 0;
+}
+.splashText{
+  margin-top: 100px;
+  margin-left: 0px;
+  margin-right: 0px;
+  color: white;
+}
+.search .MuiFormControl-root{
+  border-radius: 500px;
+}
+.searchGrid{
+  margin-top: 20px;
+}
+.unorderedSearchList{
+  text-align: left;
+  background-color: #FDFFFC;
+  border-radius: 50px;
+}
+.categoryTextContainer{
+  display: table;
+  background-color: black;
+}
+.categoryText{
+  color: white;
+  width: 300px;
+}
+.mainCard{
+  margin-bottom: 5px;
+  width:400px;
+}
+.searchResults{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media (max-width:768px){
+  .splashText{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (max-width:992px){
+  .splashText{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
+@media (max-width:1024px){
+  .splashText{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+@media (min-width:1200px){
+  .splashText{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
